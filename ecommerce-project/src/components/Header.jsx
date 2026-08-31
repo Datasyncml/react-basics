@@ -51,7 +51,7 @@ export function Header({cart}) {
 
           <Link
             className="cart-link header-link"
-            Link="/checkout"
+            to="/checkout"
           >
             <img
               className="cart-icon"
