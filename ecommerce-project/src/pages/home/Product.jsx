@@ -22,6 +22,7 @@ const selectQuantity=(event) => {
             <div className="product-image-container">
                 <img
                     className="product-image"
+                    data-testid="product-image"
                     src={product.image}
                 />
             </div>
@@ -33,6 +34,7 @@ const selectQuantity=(event) => {
             <div className="product-rating-container">
                 <img
                     className="product-rating-stars"
+                    data-testid="product-rating-stars-image"
                     src={`/images/ratings/rating-${product.rating.stars * 10}.png`}
                 />
 
