@@ -70,7 +70,8 @@ const selectQuantity=(event) => {
             </div>
 
             <button className="add-to-cart-button button-primary"
-                onClick={addToCart}>
+                 data-testid="add-to-cart-button"
+                 onClick={addToCart}>
                 Add to Cart
             </button>
 
